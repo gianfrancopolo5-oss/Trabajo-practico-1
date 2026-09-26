@@ -124,3 +124,24 @@
         font-weight: bold;
         color: var(--color-secundario);
     }
+/* IMÁGENES (index.html) */
+
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 6px;
+        display: block;
+    }
+
+/* DATOS RÁPIDOS (index.html) */
+
+    dd {
+        color: var(--color-texto);
+        margin-bottom: 0.5rem;
+    }
+
+/* DESTACADOS PUNTUALES (index.html) */
+
+    #dato-curioso {
+        border-left: 4px solid var(--color-acento);
+    }

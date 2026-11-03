@@ -37,23 +37,34 @@
     header p {margin-bottom: 1.5rem;}
 
 /* NAVEGACIÓN */
+/* BOOTSTRAP */
 
-    nav ul {list-style: none;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 0.75rem;}
-    
-    nav a {display: block;
-        padding: 0.5rem 0.9rem;
-        color: white;
-        text-decoration: none;
-        font-weight: bold;
-        border-radius: 6px;}
-    
-    nav a:hover {color: var(--color-secundario);
-        background-color: var(--color-acento);
-        text-decoration: none;}
+.navbar-puerto-vela {
+    background-color: var(--color-primario);
+    padding: 0.8rem 1rem;}
+
+/* Nombre de la ciudad */
+.navbar-puerto-vela .navbar-brand {
+    color: white;
+    font-weight: bold;
+    font-size: 1.4rem;}
+
+/* Enlaces del menú */
+.navbar-puerto-vela .nav-link {
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;}
+
+/* Efecto al pasar el mouse */
+.navbar-puerto-vela .nav-link:hover {
+    color: var(--color-secundario);
+    background-color: var(--color-acento);}
+
+/* Lema de la ciudad */
+.lema-ciudad {
+    color: white;
+    padding: 0.8rem 1rem;
+    margin-bottom: 0;}
 
 /* MAIN */
    

@@ -175,3 +175,15 @@
     #dato-curioso {
         border-left: 4px solid var(--color-acento);
     }
+/* FLEXBOX: tarjetas de lugares destacados (index.html) */
+
+    .tarjetas {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .tarjetas article {
+        flex: 1 1 250px;
+        margin-bottom: 0;
+    }

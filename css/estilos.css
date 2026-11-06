@@ -187,3 +187,40 @@
         flex: 1 1 250px;
         margin-bottom: 0;
     }
+
+
+.contenedor-banner {
+    position: relative;
+}
+
+.etiqueta-novedad {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: var(--color-acento);
+    color: var(--color-texto);
+    padding: 0.4rem 0.8rem;
+    font-weight: bold;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 10;
+}
+
+.card {
+    border: 2px solid var(--color-primario); 
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px); 
+}
+
+.btn-primary {
+    background-color: var(--color-primario) !important;
+    border-color: var(--color-secundario) !important;
+}
+
+.btn-primary:hover {
+    background-color: var(--color-acento) !important;
+    color: var(--color-texto) !important;
+}
